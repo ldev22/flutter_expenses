@@ -34,7 +34,7 @@ class Chart extends StatelessWidget {
   Widget build(BuildContext context) {
     final isDarkMode =
         MediaQuery.of(context).platformBrightness == Brightness.dark;
-    const double income = 36900.00;
+    const double income = 20000.00;
     double remaining = income - maxTotalExpense;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
